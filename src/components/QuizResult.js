@@ -5,9 +5,10 @@ function QuizResult(props) {
     <>
     <div className='show-score'>
         Your Score:{props.score}<br/>
-        Total Score:{props.totalScore}
+        Total Score:{props.totalScore} <br/>
+        Percentage:{props.score/props.totalScore*100} %
     </div>
-    <button id="next-button" onClick={props.tryAgain}>Try Again</button>
+    <button id="button" onClick={props.tryAgain}>Try Again</button>
     </>
   )
 }
