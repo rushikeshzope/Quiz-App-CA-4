@@ -13,7 +13,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #276272;
+  background-image: url(./Assets/bgimglight.jpg);
+  text-align: center;
 }
 
 .container {
@@ -22,12 +23,14 @@ body {
   flex-direction: column;
   min-height: 400px;
   width: 400px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   box-shadow: 2px 2px 10px 1px #333;  
   overflow: hidden;
   padding: 10px;
-  position: relative;
+  position: relative; 
+
+
 }
 .heading-txt{
   color:rgb(204, 201, 201);
@@ -50,10 +53,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff; 
+  background-color: rgba(255, 255, 255, 0.7);
   color: #333; 
   transition: background-color 0.3s ease; 
-  border: 2px solid #a2a3a3;
+ 
 }
 
 .question:hover {
@@ -91,7 +94,7 @@ body {
   transition: 0.3s;
   margin: 5px;
   min-height: 30px;
-  background-color: rgb(234, 230, 230);
+  background-color: rgba(255, 255, 255, 0.7 );
 }
 
 .option-btn:hover{

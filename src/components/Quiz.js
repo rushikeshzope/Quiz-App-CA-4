@@ -1,7 +1,7 @@
   import React, { useState } from 'react';
   import questions from '../questions';
   import QuizResult from './QuizResult';
-  import './Quiz.css';
+
 
 
   const Quiz = () => {
@@ -50,15 +50,9 @@
       setHighlighted(false);
     };
 
-    const toggleBackgroundColor = () => {
-      setIsColorToggled(!isColorToggled);
-    };
-
     return (
-      <div className={`body ${isColorToggled ? 'body-color-toggled' : ''}`}>
-        <button className="color-toggle-btn" onClick={toggleBackgroundColor}>
-          Dark
-        </button>
+      <div>
+        <button>Dark</button>
         <p className="heading-txt">Quiz APP</p>
         <div className="container">
           {showResult ? (
