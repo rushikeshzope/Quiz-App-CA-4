@@ -2,7 +2,7 @@
   import questions from '../questions';
   import QuizResult from './QuizResult';
   import './Quiz.css';
-  
+
 
   const Quiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
